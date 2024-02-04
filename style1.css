@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color:grey;
+}
+#top{
+    padding:20px 45px; 
+    font-size:20px;
+}
+#center{
+width: 75vw;
+height: 20vh;
+display: flex;
+justify-content: space-between;
+padding:4px 45px;
+margin-left:80px;
+}
+.map{
+    height:75vh;
+    width: 100%;
+   background-color:rgb(87, 90, 133);
+   text-align: center;
+   padding-top: 20px;
+}
+#map2{
+    padding-top: 20px;
+    height: 40px;
+    width:30px;
+    padding-left:32px;
+}
+#map2 iframe{
+    width:1450px;
+}
+
+.Info h2{
+color: white;
+text-align: center;
+padding-top: 40px;
+font-size: 35px;
+}
+#info2{
+padding-left:30px;
+font-size: 20px;
+font-weight: 200;
+color: white;
+line-height: 35px;
+padding-top:15px; 
+}
+.post{
+    text-align: center;
+    color: white;
+    font-size:23px;
+    padding-left: 25px;
+    padding-right: 30px;
+    padding-top: 30px;
+}
+#search input{
+    color: black;
+    font-size:20px;
+    padding: 10px 26px;
+    flex: 1;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: black;
+}
+#search{
+    height: 30px;
+    background-color: black;
+    border: 30px;
+    display: flex;
+    align-items: center;
+    padding:20px;
+    border: 2px solid rgb(87, 90, 133);;
+}
+#search > i{
+font-size: 20px;
+color: #777;
+}
+.last-containers1{
+    padding-left: 20px;
+    padding-top: 40px;
+    display: flex;
+    gap:5%;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+#lt1{
+    height: 40%;
+    width:40%;
+    background: rgb(87, 90, 133);
+    line-height: 50px;
+    border-radius: 10px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+.last-containers2{
+    padding-left: 20px;
+    padding-top: 40px;
+    display: flex;
+    gap:5%;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+.last-containers3{
+    padding-left: 20px;
+    padding-top: 40px;
+    display: flex;
+    gap:5%;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+.last-containers4{
+    padding-left: 20px;
+    padding-top: 40px;
+    display: flex;
+    gap:5%;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+.last-containers5{
+    padding-left: 20px;
+    padding-top: 40px;
+    display: flex;
+    gap:5%;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
